@@ -1,0 +1,11 @@
+name: Baseline local action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  baseline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invoke inert local action
+        uses: zashk0-labs/bb-policy-action-20260920@132b98e3fbcb343b4fb62bf32b63039e80cd14b5
