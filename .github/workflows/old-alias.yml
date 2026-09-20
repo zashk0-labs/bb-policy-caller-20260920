@@ -1,0 +1,11 @@
+name: Old organization alias test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  old-alias:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invoke same post-transfer action by old organization NWO
+        uses: zashk0-labs/bb-policy-action-20260920@20e464e8fb77d3c3b7984c1262e2613de112fbca

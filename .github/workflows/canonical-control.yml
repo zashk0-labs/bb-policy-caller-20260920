@@ -1,0 +1,11 @@
+name: Canonical external control
+
+on:
+  workflow_dispatch:
+
+jobs:
+  canonical-control:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invoke post-transfer action by canonical NWO
+        uses: Zashk0/bb-policy-action-20260920@20e464e8fb77d3c3b7984c1262e2613de112fbca
