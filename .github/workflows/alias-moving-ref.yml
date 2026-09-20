@@ -1,0 +1,10 @@
+name: Old alias moving-ref control
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - name: Invoke transferred action through unchanged old alias
+        uses: zashk0-labs/bb-policy-action-20260920@master
